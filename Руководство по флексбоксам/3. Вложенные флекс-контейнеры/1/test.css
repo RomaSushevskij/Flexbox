@@ -1,0 +1,25 @@
+.container {
+	display:flex;
+}
+
+.red {
+	display:flex;
+	flex-direction:column;
+	background:orangered;
+}
+
+.green {
+	background:yellowgreen;
+}
+
+.blue {
+	background:steelblue;
+}
+
+.container div {
+	font-size:5vw;
+	padding:.5em;
+	color:#fff;
+	flex:1;
+}
+

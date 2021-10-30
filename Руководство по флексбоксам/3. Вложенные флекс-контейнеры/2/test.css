@@ -1,0 +1,41 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	display:flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin:0;
+}
+
+#main {
+	display:flex;
+	flex: 1;
+}
+
+#main > article {
+	flex:1;
+}
+
+#main > nav, 
+#main > aside {
+	background:beige;
+	flex:0 0 20vw;
+}
+
+#main > nav {
+	order:-1;
+}
+
+footer, header {
+	background:yellowgreen;
+	height:20vh;
+}
+
+header, article, nav, aside, footer {
+	padding:1em;
+}
+
+
+

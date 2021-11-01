@@ -1,0 +1,35 @@
+body {
+	margin:0;
+}
+
+.container {
+	display:flex;
+	background:beige;
+	height:100vh;
+	align-items:flex-start;
+	flex-flow:row-reverse wrap;
+	
+}
+
+.container > div {
+	color:#fff;
+	font-size:5vw;
+	padding:.5em;
+	width:60vw;
+}
+
+.red {
+	background:orangered;
+	
+}
+
+.green {
+	background:yellowgreen;
+	
+}
+
+.blue {
+	background-color:steelblue;
+	
+	
+}

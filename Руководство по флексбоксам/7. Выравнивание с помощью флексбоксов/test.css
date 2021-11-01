@@ -1,0 +1,33 @@
+body {
+	margin:0;
+}
+
+.wrapper {
+	background-color: beige;
+	display:flex;
+	height:100vh;
+	align-items:center;
+	justify-content:center;
+}
+
+.wrapper div {
+	color:#fff;
+	font-size:4vw;
+	padding:.5em;
+}
+
+.red {
+	background:orangered;
+	align-self:flex-start;
+	margin:auto;
+}
+
+.green {
+	background:yellowgreen;
+	
+}
+
+.blue {
+	background-color:steelblue;
+	align-self:flex-end;
+}
